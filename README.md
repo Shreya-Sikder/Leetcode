@@ -19,6 +19,5 @@ Each solution includes:
 - Problem description (linked to LeetCode)
 - Code with detailed comments
 
-## Structure
 
-The repository is organized by problem number and topic for easy navigation:
+<br>*Happy Coding!*
