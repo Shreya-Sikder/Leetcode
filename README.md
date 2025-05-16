@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Welcome to my repository of LeetCode solutions! This project contains my solutions to various LeetCode problems, implemented primarily in  C++ and . Each solution is developed by me, with some inspiration and guidance from YouTube tutorials, to ensure clarity and efficiency while helping others understand the approach.
+Welcome to my repository of LeetCode solutions! This project contains my solutions to various LeetCode problems, implemented primarily in  C++,sql . Each solution is developed by me, with some inspiration and guidance from YouTube tutorials, to ensure clarity and efficiency while helping others understand the approach.
 
 ## About
 
@@ -12,7 +12,7 @@ This repository serves as a personal record of my problem-solving journey on Lee
 - Greedy Algorithm
 - Dynamic Programming
 - Divide and Conquer
-- And more!
+- Database and more
 
 Each solution includes:
 
