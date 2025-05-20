@@ -1,0 +1,26 @@
+class Solution {
+public:
+    bool isZeroArray(vector<int>& nums, vector<vector<int>>& queries) {
+        for(int i=0;i<queries.size();i++){
+            int l=queries[i][0];
+              int r=queries[i][1];
+            for(int j=l;j<=r;j++){
+                if(j>=0&&j<nums.size()){
+                nums[j]=max(0,nums[j]-1);
+//if nums[i]-1= neg value then it will take the max between 0 and neg value so it is ultimately 0
+                }
+            }
+        }
+        int c=0;
+        for(int i=0;i<nums.size();i++){
+            if(nums[i]==0){
+                c++;
+            }
+        }
+        if(c==nums.size())
+        return true;
+        else
+         return false;
+    }
+};
+
