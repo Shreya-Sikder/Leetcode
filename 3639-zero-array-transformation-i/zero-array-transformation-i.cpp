@@ -4,7 +4,7 @@ public:
         int n = nums.size();
         vector<int> diff(n + 1, 0); // One extra element to avoid out-of-bound for r+1
 
-        // Step 1: Apply range updates using difference array
+        //apply range updates using diff array
         for (auto& q : queries) {
             int l = q[0];
             int r = q[1];
@@ -15,14 +15,14 @@ public:
             }
         }
 
-        // Step 2: Apply difference to the original array
+        // apply diff to the original array
         int decrement = 0;
         for (int i = 0; i < n; ++i) {
             decrement += diff[i];
             nums[i] = max(0, nums[i] - decrement);
         }
 
-        // Step 3: Check if all elements are zero
+        // Check if all elements are zero
         for (int num : nums) {
             if (num != 0) return false;
         }
